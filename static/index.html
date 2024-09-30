@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Articles</title>
+</head>
+
+<body>
+    <h1>Articles</h1>
+    <img src="amazing_logo.png" alt="Description of image" width="100" height="100" class="image">
+    <ul>
+        {{range .Articles}}
+        <li><a href="/article?id={{.ID}}">{{.Title}}</a></li>
+        {{end}}
+    </ul>
+    <div>
+        {{if .HasPrev}}
+        <a href="/articles?page={{.PreviousPage}}">Previous</a>
+        {{end}}
+
+        {{if .HasNext}}
+        <a href="/articles?page={{.NextPage}}">Next</a>
+        {{end}}
+    </div>
+    <a href="/admin" class="backButton">Add New Article</a>
+</body>
+
+</html>

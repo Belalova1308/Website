@@ -1,0 +1,111 @@
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 60%;
+    margin: 20px 0;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+li:hover {
+    background-color: rgb(175, 175, 242);
+    transform: translateY(-5px);
+}
+
+li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+div {
+    margin-top: 20px;
+}
+
+div a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+div a:hover {
+    background-color: #2980b9;
+}
+
+.backButton {
+    text-decoration: none;
+    color: white;
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.backButton:hover {
+    background-color: #c0392b;
+}
